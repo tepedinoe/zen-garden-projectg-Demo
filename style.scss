@@ -3,8 +3,6 @@
 @import url('https://fonts.google.com/specimen/Ubuntu+Mono');
 
 $bg-url: 'dark-space.png';
-$bg-width: 50px;
-$bg-height: 50px;
 $black-color: #080808;
 $white-color: rgb(240, 235, 235);
 $font-title: initial;
@@ -187,7 +185,6 @@ footer {
 }
 footer::before{
   content: url("dark-space.png");
-  border-radius: 1px;
   animation: wiggle 3s linear infinite;
 }
 footer::after{
@@ -247,14 +244,9 @@ footer > a:hover {
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-timing-function:cubic-bezier(0.9, -0.98, 0.735, 0.045);
-  width: 1100px;
-  height: 184px;
-  border-radius: 10px;
   position: absolute;
   left: 0; 
   right: 0; 
-  margin-left: auto;
-  margin-right: auto; 
   background-image: url('starwars-name.png');
 }
 
